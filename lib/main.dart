@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void initAppCenter() async {
     final ios = defaultTargetPlatform == TargetPlatform.iOS;
-    var app_secret = ios ? "iOSGuid" : "48ca3cd1-0322-40bc-8f31-a60223bfbdb5";
+    var app_secret = ios ? "iOSGuid" : "0e117cdf-66ab-4a4e-9a91-16f2af4611dc";
     await AppCenter.start(app_secret, [AppCenterAnalytics.id, AppCenterCrashes.id]);
   }
 
